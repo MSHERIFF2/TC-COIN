@@ -1,0 +1,42 @@
+
+
+a{
+    background: rgb(9, 85, 102);
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-family: verdana;
+    font-size: 20px;
+    animation: loading 2.5s forwards;
+    animation-iteration-count: infinite;
+}
+@keyframes loading{
+    0%{
+        font-size: 10px;
+       
+    }
+    20%{
+       font-size: 12px;
+    }
+    40%{
+        font-size: 14px;
+       
+    }
+    60%{
+       font-size: 16;
+    }
+    80%{
+        font-size: 18;
+       
+    }
+    100%{
+        font-size: 20px;
+    }
+}
+ a:hover{
+   
+    background-color: rgb(31, 235, 242);
+   
+}

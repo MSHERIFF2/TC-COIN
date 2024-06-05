@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid black; */
+}
+.smh p span {
+  font-size: 15px;
+  font-family: verdana;
+}
+.smh {
+  max-width: 100%;
+  width: 300px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: verdana;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.main .energy {
+  font-family: verdana;
+  font-size: 30px;
+  position: relative;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  max-width: 100%;
+  width: 100vw;
+  height: 100vh;
+  gap: 5px;
+}
+
+.main button {
+  max-width: 100%;
+  width: 200px;
+  height: 10px;
+  margin: auto;
+  display: flex;
+  border-radius: 20px;
+  background-color: rgb(245, 239, 67);
+  border: none;
+  position: relative;
+}
+.mobile_view_container {
+  display: flex;
+  flex-direction: column;
+  background: rgb(9, 85, 102);
+  max-width: 100%;
+  width: 450px;
+  height: 100vh;
+  margin: auto;
+  color: white;
+  position: relative;
+}
+.footer .div {
+    width: 100px;
+    height: 80px;
+    margin: 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    border: 2px solid white;
+  }
+  .footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    border-top: 2px solid white;
+  }
+  .logo {
+    max-width: 50px;
+    max-height: 50px;
+  }
+  .tap {
+    max-width: 80px;
+    margin: auto;
+    display: flex;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 2px solid white;
+  }
+  .main p {
+    text-align: center;
+  }
+  .main button {
+    width: 200px;
+    height: 10px;
+    margin: auto;
+    display: flex;
+    border-radius: 20px;
+    background-color: rgb(238, 164, 26);
+    border: none;
+  }
+
+@media screen and (min-width: 800px) {
+  
+
+  
+  .mobile_view_container {
+    max-width: 100%;
+    width: 450px;
+    height: 100vh;
+  }
+}
+
